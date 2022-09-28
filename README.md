@@ -17,24 +17,17 @@ git clone https://github.com/FC-Consulting/formation-solr-tp.git
 cd formation-solr-tp
 ```
 
-### MariaDB
-
-```shell
-...
-```
-
 ### Solr 
 
-Attention, l'ajout de paquets dans Solr nécessite une install en Cluster.
-
 ```shell
-bin/solr start -c -Denable.packages=true
-bin/solr package add-repo data-import-handler "https://raw.githubusercontent.com/rohitbemax/dataimporthandler/master/repo/"
-bin/solr package list-available
-bin/solr package install data-import-handler
+sudo nano /etc/security/limits.conf
 
-curl "http://localhost:8983/solr/admin/collections?action=CREATE&name=products&numShards=1"
+solr hard nofile 65535
+solr soft nofile 65535
+solr hard nproc 65535
+solr soft nproc 65535
 
+apt-get install haveged -y
 ```
 
 ## Etape 2 :: Vérification 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="571de822-751e-46e5-b850-054ce0ee4df0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr-8983-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr-8983-console.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr.log" beforeDir="false" afterPath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr_gc.log" beforeDir="false" afterPath="$PROJECT_DIR$/solr-9.0.0/server/logs/solr_gc.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FOKGQ9FsmEXIABt2QLfAFoxrlC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
+      <option name="passParentEnvironments" value="true" />
+      <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="true" />
+      <option name="buildType" value="" />
+      <option name="bundleLocation" value="" />
+      <option name="developerMode" value="true" />
+      <option name="gogoShellPort" value="11311" />
+      <option name="passParentEnvironments" value="true" />
+      <option name="vmParameters" value="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="571de822-751e-46e5-b850-054ce0ee4df0" name="Changes" comment="" />
+      <created>1664357593555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664357593555</updated>
+      <workItem from="1664357595147" duration="5521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
