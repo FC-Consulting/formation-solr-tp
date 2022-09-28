@@ -1,0 +1,68 @@
+2022-09-28 16:00:17.623 INFO  (main) [] o.e.j.u.log Logging initialized @614ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-09-28 16:00:17.748 INFO  (main) [] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.16+8-post-Ubuntu-0ubuntu120.04
+2022-09-28 16:00:17.929 INFO  (main) [] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-09-28 16:00:17.938 INFO  (main) [] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.0.0
+2022-09-28 16:00:17.938 INFO  (main) [] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in cloud mode on port 8983
+2022-09-28 16:00:17.938 INFO  (main) [] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0
+2022-09-28 16:00:17.938 INFO  (main) [] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2022-09-28T16:00:17.938786Z
+2022-09-28 16:00:17.955 INFO  (main) [] o.a.s.s.CoreContainerProvider Solr Home: /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr (source: system property: solr.solr.home)
+2022-09-28 16:00:17.956 INFO  (main) [] o.a.s.c.SolrXmlConfig Loading solr.xml from /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr/solr.xml
+2022-09-28 16:00:18.771 WARN  (main) [] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2022-09-28 16:00:18.776 INFO  (main) [] o.a.s.c.SolrZkServerProps Reading configuration from: /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr/zoo.cfg
+2022-09-28 16:00:18.778 INFO  (main) [] o.a.s.c.SolrZkServer STARTING EMBEDDED STANDALONE ZOOKEEPER SERVER at port 9983
+2022-09-28 16:00:18.778 WARN  (main) [] o.a.s.c.SolrZkServer Embedded Zookeeper is not recommended in production environments. See Reference Guide for details.
+2022-09-28 16:00:18.823 WARN  (embeddedZkServer) [] o.a.z.s.ServerCnxnFactory maxCnxns is not configured, using default value 0.
+2022-09-28 16:00:19.279 INFO  (main) [] o.a.s.c.ZkContainer Zookeeper client=localhost:9983
+2022-09-28 16:00:19.302 INFO  (main) [] o.a.s.c.DistributedClusterStateUpdater Creating DistributedClusterStateUpdater with useDistributedStateUpdate=false. Solr will be using Overseer based cluster state updates.
+2022-09-28 16:00:19.329 INFO  (main) [] o.a.s.c.c.ConnectionManager Waiting up to 30000ms for client to connect to ZooKeeper
+2022-09-28 16:00:19.357 INFO  (zkConnectionManagerCallback-10-thread-1) [] o.a.s.c.c.ConnectionManager zkClient has connected
+2022-09-28 16:00:19.357 INFO  (main) [] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2022-09-28 16:00:19.423 WARN  (main) [] o.a.s.c.ZkController Contents of zookeeper /security.json are world-readable; consider setting up ACLs as described in https://solr.apache.org/guide/zookeeper-access-control.html
+2022-09-28 16:00:19.446 INFO  (main) [] o.a.s.c.DistributedClusterStateUpdater Creating DistributedClusterStateUpdater with useDistributedStateUpdate=false. Solr will be using Overseer based cluster state updates.
+2022-09-28 16:00:19.457 INFO  (main) [] o.a.s.c.OverseerElectionContext I am going to be the leader localhost:8983_solr
+2022-09-28 16:00:19.461 INFO  (main) [] o.a.s.c.Overseer Overseer (id=72059520639107072-localhost:8983_solr-n_0000000000) starting
+2022-09-28 16:00:19.513 INFO  (main) [] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/localhost:8983_solr
+2022-09-28 16:00:19.514 INFO  (OverseerStateUpdate-72059520639107072-localhost:8983_solr-n_0000000000) [] o.a.s.c.Overseer Starting to work on the main queue : localhost:8983_solr
+2022-09-28 16:00:19.523 INFO  (zkCallback-9-thread-1) [] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (0) -> (1)
+2022-09-28 16:00:19.550 INFO  (main) [] o.a.s.p.PackageLoader /packages.json updated to version -1
+2022-09-28 16:00:19.561 WARN  (main) [] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2022-09-28 16:00:19.880 INFO  (main) [] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr
+2022-09-28 16:00:19.935 INFO  (main) [] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@7c22d4f{/solr,file:///home/florent/Workspace/perso/FC%20Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr-webapp/webapp/,AVAILABLE}{/home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/solr-webapp/webapp}
+2022-09-28 16:00:19.938 INFO  (main) [] o.e.j.s.RequestLogWriter Opened /home/florent/Workspace/perso/FC Consulting/sources/formation-solr-tp/solr-9.0.0/server/logs/2022_09_28.request.log
+2022-09-28 16:00:19.944 INFO  (main) [] o.e.j.s.AbstractConnector Started ServerConnector@3b2c0e88{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:8983}
+2022-09-28 16:00:19.944 INFO  (main) [] o.e.j.s.Server Started @2937ms
+2022-09-28 16:00:25.779 INFO  (qtp914942811-25) [] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2022-09-28 16:00:25.791 INFO  (qtp914942811-25) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1664380825711} status=0 QTime=41
+2022-09-28 16:00:25.795 INFO  (qtp914942811-23) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1664380825711} status=0 QTime=45
+2022-09-28 16:00:25.813 INFO  (qtp914942811-73) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1664380825711} status=0 QTime=6
+2022-09-28 16:00:25.820 INFO  (qtp914942811-72) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1664380825711} status=0 QTime=10
+2022-09-28 16:00:25.834 INFO  (qtp914942811-25) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LISTALIASES&wt=json&_=1664380825711} status=0 QTime=1
+2022-09-28 16:00:25.844 INFO  (qtp914942811-72) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/schema-designer/configs params={wt=json&_=1664380825712} status=0 QTime=2
+2022-09-28 16:00:45.631 INFO  (qtp914942811-72) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1664380825711} status=0 QTime=0
+2022-09-28 16:00:45.634 INFO  (qtp914942811-19) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1664380825711} status=0 QTime=2
+2022-09-28 16:00:45.638 INFO  (qtp914942811-23) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1664380825711} status=0 QTime=7
+2022-09-28 16:00:45.651 INFO  (qtp914942811-19) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1664380825711} status=0 QTime=0
+2022-09-28 16:00:45.681 INFO  (qtp914942811-25) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LISTALIASES&wt=json&_=1664380825711} status=0 QTime=1
+2022-09-28 16:00:45.687 INFO  (qtp914942811-72) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/schema-designer/configs params={wt=json&_=1664380825712} status=0 QTime=0
+2022-09-28 16:00:45.714 INFO  (qtp914942811-19) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=javabin&version=2&_=1664380825711} status=0 QTime=5
+2022-09-28 16:00:45.732 INFO  (qtp914942811-18) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={nodes=localhost:8983_solr&wt=json&_=1664380825711} status=0 QTime=76
+2022-09-28 16:01:26.441 INFO  (qtp914942811-18) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1664380886383} status=0 QTime=0
+2022-09-28 16:01:26.445 INFO  (qtp914942811-23) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1664380886383} status=0 QTime=4
+2022-09-28 16:01:26.452 INFO  (qtp914942811-73) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1664380886383} status=0 QTime=3
+2022-09-28 16:01:26.492 INFO  (qtp914942811-23) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1664380886383} status=0 QTime=0
+2022-09-28 16:01:26.506 INFO  (qtp914942811-73) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LISTALIASES&wt=json&_=1664380886383} status=0 QTime=0
+2022-09-28 16:01:26.517 INFO  (qtp914942811-23) [] o.a.s.s.HttpSolrCall [admin] webapp=null path=/schema-designer/configs params={wt=json&_=1664380886383} status=0 QTime=0
+2022-09-28 16:01:33.293 INFO  (ShutdownMonitor) [] o.e.j.s.AbstractConnector Stopped ServerConnector@3b2c0e88{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:8983}
+2022-09-28 16:01:33.299 INFO  (ShutdownMonitor) [] o.a.s.c.CoreContainer Shutting down CoreContainer instance=810576909
+2022-09-28 16:01:33.299 INFO  (ShutdownMonitor) [] o.a.s.c.ZkController Remove node as live in ZooKeeper:/live_nodes/localhost:8983_solr
+2022-09-28 16:01:33.311 INFO  (ShutdownMonitor) [] o.a.s.c.ZkController Publish this node as DOWN...
+2022-09-28 16:01:33.311 INFO  (ShutdownMonitor) [] o.a.s.c.ZkController Publish node=localhost:8983_solr as DOWN
+2022-09-28 16:01:33.312 INFO  (zkCallback-9-thread-2) [] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (1) -> (0)
+2022-09-28 16:01:33.318 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2022-09-28 16:01:33.326 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2022-09-28 16:01:33.332 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2022-09-28 16:01:33.334 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.cluster tag=null
+2022-09-28 16:01:33.336 INFO  (closeThreadPool-23-thread-1) [] o.a.s.c.Overseer Overseer (id=72059520639107072-localhost:8983_solr-n_0000000000) closing
+2022-09-28 16:01:33.337 INFO  (OverseerStateUpdate-72059520639107072-localhost:8983_solr-n_0000000000) [] o.a.s.c.Overseer Overseer Loop exiting : localhost:8983_solr
+2022-09-28 16:01:33.340 INFO  (closeThreadPool-23-thread-2) [] o.a.s.c.Overseer Overseer (id=72059520639107072-localhost:8983_solr-n_0000000000) closing
+2022-09-28 16:01:33.445 INFO  (ShutdownMonitor) [] o.a.s.c.Overseer Overseer (id=72059520639107072-localhost:8983_solr-n_0000000000) closing
